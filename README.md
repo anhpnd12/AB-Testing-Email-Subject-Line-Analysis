@@ -25,7 +25,7 @@ In this project, my task is to draw useful insights while exploring interesting 
 
 
 ## 1.1 Data Description
-* PromoCode: 0 – no code was used, 1- Flash was used, 2 –OneDay was used, 3- Birthday was used (this is a code provided to consumers for their birthday and cannot be combined with any other offers)
+* PromoCode: 0 – no code was used, 1- Flashsale was used, 2 –OneDay was used, 3- Birthday was used (this is a code provided to consumers for their birthday and cannot be combined with any other offers)
 * Sales: amount spent (in $) during the 24-hour period
 * Items: number of items purchased during the 24-hour period
 * Ship: 0- ship to store, 1-ship to home
@@ -56,22 +56,32 @@ Step:
 
 ### Run independent t-tests
 #### IV = Promocode, DV = Average sales
+Results suggest a significant relationship between Promocode and Sales (t(95) = 2.5, p < 0.05). On average, Sales for promocode Flash Sale (M = 102.08, sd = 71.95) was higher than promocode One Day Sale (M = 68.88, sd = 58.39).  
+
 #### IV = Promocode, DV = Average Frequency (nb of purchase 12 month)
+Results suggest there is no significant relationship between Promocode and number of purchases made by consumer in the last 12 months (p = 0.2)
+
 #### IV = Promocode, DV = Average Freq_promo (nb of promo purchase 12 month)
+Results suggest there is no significant relationship between Promocode and number of times consumer has made a purchase with a promotion code in the last 12 months (p = 0.4)
+
 #### IV = Promocode, DV = Average Online (nb of online purchase 12 month)
+Results suggest there is no significant relationship between Promocode and number of online purchases made by consumer in the last 12 months (p = 0.1)
 
 
 ## 2.2 Examining the differences between those consumers who received the promotional email and made a purchase versus those consumers who received the email and did not make a purchase
 
 * Looking at differences between between those who made a purchase and those who did not
 * Testing proportion of purchase versus not purchase by promocode
-### Run independent t-tests
+### Run chi-square test
 #### IV = Type of promo, DV = Purchase with promo
-
+Results suggest a significant relationship between Promocode and Purchase with promo (χ2(1) = 5.8, p < 0.05). In detail, there is a significantly higher percentage of purchased with Promocode One Day (59%) than Flash Sale (41%). 
 
 ### Run independent t-tests
 #### IV = Purchase made, DV = Average Frequency (nb of purchase 12 month)
+Results suggest there is no significant relationship between number of purchase made vs their frequency to purchase (p = 0.9)
+
 #### IV = Purchase made, DV = Averaqe Freq_promo (nb of promo purchase 12 month)
+Results suggest there is no significant relationship between number of purchase made vs their frequency to purchase with promo (p = 0.9)
 
 #### a z-test of proportion between groups for the click through rate
-
+Results suggest a significant relationship between make a purchase / not make a purchase and click through rate (χ2(1) = 3.6, p < 0.05)
