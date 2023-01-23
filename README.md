@@ -12,6 +12,7 @@ What R packages you need to install the software and how to install them
 * library(dplyr)
 * library(psych)
 * library(gmodels)
+* library(ggpubr)
 
 
 ### Built With
