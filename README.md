@@ -47,12 +47,12 @@ In this project, my task is to draw useful insights while exploring interesting 
 
 # 2. Analytical Questions
 ## 2.1 Assessing the effectiveness of 2 experiment subject lines
-
-### Subset customers who experiment 2 promocode subject lines 
-### Create average number of online purchases (Online), number of purchases by customer (frequency) and number of purchases with promo (freq-promo) in the last 12 months
-### Create new variables, make a purchase versus not make a purchase
-### looking within those who made a purchase
-### Creating subset with those purchase by promocode
+Step:
+* Subset customers who experiment 2 promocode subject lines 
+* Create average number of online purchases (Online), number of purchases by customer (frequency) and number of purchases with promo (freq-promo) in the last 12 months
+* Create new variables, make a purchase versus not make a purchase
+* Looking within those who made a purchase
+* Creating subset with those purchase by promocode
 
 ### Run independent t-tests
 #### IV = Promocode, DV = Average sales
@@ -63,8 +63,9 @@ In this project, my task is to draw useful insights while exploring interesting 
 
 ## 2.2 Examining the differences between those consumers who received the promotional email and made a purchase versus those consumers who received the email and did not make a purchase
 
-### looking at differences between between those who made a purchase and those who did not
-### testing proportion of purchase versus not purchase by promocode
+* Looking at differences between between those who made a purchase and those who did not
+* Testing proportion of purchase versus not purchase by promocode
+### Run independent t-tests
 #### IV = Type of promo, DV = Purchase with promo
 
 
