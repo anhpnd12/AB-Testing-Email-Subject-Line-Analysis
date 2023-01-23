@@ -11,17 +11,29 @@ In this project, my task is to draw useful insights while exploring interesting 
 ## 1.1 Data Description
 
 PromoCode: 0 – no code was used, 1- Flash was used, 2 –OneDay was used, 3- Birthday was used (this is a code provided to consumers for their birthday and cannot be combined with any other offers)
+
 Sales: amount spent (in $) during the 24-hour period
+
 Items: number of items purchased during the 24-hour period
+
 Ship: 0- ship to store, 1-ship to home
+
 GiftCard: 0-no gift card used, 1- gift card used (for some or all of purchase)
+
 Accessories: number of items purchased that qualify as an accessory 
+
 Clothing: number of items purchased that qualify as clothing
+
 Shoes: number of items purchased that qualify as shoes
+
 Guest: 0 - the consumer checked out as a guest, 1- consumer checked as a returning user (i.e. they are part of the rewards program)
+
 Frequency: number of purchases made by consumer in the last 12 months
+
 Freq_promo: number of times consumer has made a purchase with a promotion code in the last 12 months
+
 Duration: number of months enrolled in the rewards program
+
 Online: number of online purchases made by consumer in the last 12 months
 
 ## 1.2 Importing the required libraries
