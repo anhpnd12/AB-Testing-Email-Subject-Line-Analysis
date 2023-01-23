@@ -35,6 +35,18 @@ t.test (PromoPurchase$Freq_promo ~ PromoPurchase$PromoCode, var.equal=TRUE, alte
 # IV = Promocode, DV = Average Online (nb of online purchase 12 month)
 t.test (PromoPurchase$Online1 ~ PromoPurchase$PromoCode, var.equal=TRUE, alternative = "greater", data = PromoPurchase)
 
+### Run a correlation for the variables Freq_promo and Frequency
+library(ggpubr)
+ggscatter(Experiment, x = "Freq_promo", y = "Frequency", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "pearson",
+          xlab = "Freq_promo", ylab = "Frequency")
+
+res <- cor.test(Experiment$Freq_promo, Experiment$Frequency, 
+                method = "pearson")
+
+res
+
 #### looking at differences between between those who made a purchase and those who did not
 
 ## testing proportion of purchase versus not purchase by promocode
