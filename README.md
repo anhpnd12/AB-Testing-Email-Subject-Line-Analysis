@@ -69,6 +69,7 @@ Results suggest there is no significant relationship between Promocode and numbe
 Results suggest there is no significant relationship between Promocode and number of online purchases made by consumer in the last 12 months (p = 0.1)
 
 ### Run a correlation for the variables Freq_promo and Frequency
+![Frepromo vs Frequency Correlation](./img/Frepromo-vs-Frequency.png)
 Results indicate a significantly moderate, strong positive relationship between Fre_Promo and Frequency to purchase r(198) = 0.82, p < 0.05. This may indicate the more promocodes are sent to consumers the more purchases are made. 
 
 ## 2.2 Examining the differences between those consumers who received the promotional email and made a purchase versus those consumers who received the email and did not make a purchase
